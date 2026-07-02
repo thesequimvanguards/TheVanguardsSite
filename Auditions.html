@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanguards Auditions</title>
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    /* Page-specific dropdown styling */
+    .dropdown {
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+    }
+
+    .dropdown-header {
+      padding: 1rem 1.2rem;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #f05454;
+      cursor: pointer;
+      background: #1a1a1a;
+      border-bottom: 1px solid #222;
+      user-select: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Arrow icon */
+    .arrow-icon {
+      transition: transform 0.3s ease;
+      font-size: 1.2rem;
+    }
+
+    .arrow-rotate {
+      transform: rotate(180deg);
+    }
+
+    .dropdown-content {
+      display: none;
+      padding: 1.2rem;
+      background: #0f0f0f;
+    }
+
+    .dropdown-content h4 {
+      color: #f05454;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .dropdown-content p,
+    .dropdown-content li {
+      color: #ccc;
+    }
+
+    /* Back button */
+    .back-button {
+      display: inline-block;
+      background: #444;
+      padding: 0.7rem 1.4rem;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-bottom: 2rem;
+      transition: 0.3s ease;
+    }
+
+    .back-button:hover {
+      background: #fff;
+      color: #111;
+      box-shadow: 0 0 12px rgba(255,255,255,0.6);
+    }
+
+    /* Application buttons */
+    .app-buttons {
+      margin-top: 1.5rem;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* Sequim HS button (purple & gold) */
+    .sequim-btn {
+      background: #4b2e83; /* purple */
+      color: #ffd700; /* gold */
+      padding: 0.9rem 1.6rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: 0.3s ease;
+    }
+
+    .sequim-btn:hover {
+      background: #ffd700;
+      color: #4b2e83;
+      box-shadow: 0 0 15px rgba(255,215,0,0.7);
+    }
+
+    /* Collegiate button (dramatic red glow) */
+    .collegiate-btn {
+      background: #f05454;
+      color: white;
+      padding: 0.9rem 1.6rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: 0.3s ease;
+      box-shadow: 0 0 18px rgba(240,84,84,0.5);
+    }
+
+    .collegiate-btn:hover {
+      background: #fff;
+      color: #111;
+      box-shadow: 0 0 25px rgba(255,255,255,0.9), 0 0 40px rgba(240,84,84,0.8);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Audition for The Vanguards</h1>
+    <p>Join our mission to preserve the art of music.</p>
+
+   <div class="app-buttons">
+  <a href="https://forms.office.com/r/mD1q8VCmCP" class="sequim-btn" target="_blank">
+    Application to The Sequim HS Vanguards
+  </a>
+
+  <a href="https://forms.cloud.microsoft/r/dwEVr0ZXBm" class="collegiate-btn" target="_blank">
+    Application to The Wesleyan Vanguards
+  </a>
+</div>
+
+  </header>
+
+  <!-- Back Button -->
+  <section>
+    <a href="index.html" class="back-button">← Back to Home</a>
+
+  <!-- Different Ensembles Section -->
+  <section>
+    <h2>Different Ensembles</h2>
+
+    <ul>
+      <li>The Sequim HS Vanguards are a dedicated TTBB ensemble based in Sequim, Washington, committed to developing young musicians at an advanced level. The group brings together talented tenors and basses who strive for excellence in classical and contemporary choral literature. Through focused rehearsals, performances, regional festivials, and state level competition participation, the Vanguards provide students with a high‑level musical experience that builds skill, artistry, and confidence.</li>
+    <p></p>
+      <li>The Wesleyan Vanguards are a highly competitive TTBB ensemble based in Bloomington–Normal, Illinois and founded at Illinois Wesleyan University. Open exclusively to IWU students, the group is built for singers seeking a rigorous, high‑level musical experience. The ensemble focuses on advanced classical literature and contemporary art music, aiming to establish itself as one of the Midwest’s premier collegiate TTBB groups.
+
+Members can expect opportunities to perform at local events, gigs, and regional festivals, with long‑term goals of competing at major state and national competitions and traveling to high‑profile performance venues.</li>
+    </ul>
+
+    <p>
+      The Vanguards was designed to be a selective chamber TTBB ensemble that offers young vocalist the opportunity to discover all types of musical literature, from Renaissance motets to contemporary avant garde works. Being part of The Vanguards offers each member the chance to grow as a musician and leader, while also being part of a community of passionate singers who are dedicated to preserving the art of music while still performing at a high level and being held to an expectation of excellence. We are looking for singers who are passionate about music and want to be part of a community that values growth, artistry, and collaboration. If you are interested in joining The Vanguards, please read the audition requirements for each ensemble and submit your application by the deadline. We look forward to hearing from you!
+    </p>
+  </section>
+
+  <!-- Sequim HS Vanguards Dropdown -->
+  <div class="dropdown">
+    <div class="dropdown-header">
+      The Sequim HS Vanguards
+      <span class="arrow-icon">▼</span>
+    </div>
+    <div class="dropdown-content">
+
+      <h4>Description</h4>
+      <p>The Sequim High School Vanguards are a student‑led TTBB ensemble dedicated to musical excellence, collaboration, and community performance. Formed to highlight the talent and artistry of Sequim’s young vocalists, the group primarily performs classical choral literature with the occational contemporary works. The Vanguards represent SHS at concerts, festivals, and regional events, showcasing precision, teamwork, and a shared passion for singing.</p>
+
+      <h4>Audition Requirements</h4>
+      <p>For the Sequim HS Vanguards, interested students may submit applications throught the provided link with audition videos. Audition repertoire includes 1 song of your choice in any genre and a classical or art piece, karaoke tracks and accompianment tracks are accepted. However, all aplicants must be Sequim High School chior members in order to be accepted. Provisional students who demonstrate high level of choral ability inside of the choir will be given invitations, these students are exempt from the standard audition process and just need to accept their invitation to the ensemble.</p>
+
+      <h4>Expectations if Accepted</h4>
+      <p>It is the expectation that all accepted members will actively participate in the one weekly rehearsal and give notice to any rehearsal conflicts in resonable advance. During the Solo and Ensemble season it may be expected that additional rehearsals will be scheduled, typically held as quartet rehearsals. All accepted members will also be asked to download the band app which will be used for communication and scheduling purposes.</p>
+
+    </div>
+  </div>
+
+  <!-- Collegiate Vanguards Dropdown -->
+  <div class="dropdown">
+    <div class="dropdown-header">
+      The Wesleyan Vanguards
+      <span class="arrow-icon">▼</span>
+    </div>
+    <div class="dropdown-content">
+
+      <h4>Description</h4>
+      <p>The Wesleyan Vanguards are a premier TTBB vocal ensemble based in Bloomington, Illinois and open exclusively to Illinois Wesleyan University students. Designed as a highly selective, audition‑based group, the Vanguards focus on advanced classical repertoire and contemporary art music, emphasizing precision, musical depth, and professional‑level ensemble discipline. As an IWU student organization, the Vanguards perform at local events, community engagements, and private gigs while preparing for regional and national competitions. The ensemble’s long‑term vision includes traveling to major festivals and high‑level contests, representing IWU with a refined, modern TTBB sound. Built for singers who seek challenge, artistry, and excellence, the Wesleyan Vanguards aim to establish themselves as one of the Midwest’s most distinguished collegiate tenor‑baritone‑bass ensembles. </p>
+
+      <h4>Audition Requirements</h4>
+      <p>All applicants must be Illinois Wesleyan University students and complete the application process in the provided link button. Auditions will be held in person or via video submission, recorded accompaniment tracks are acceptable along with a live accompianist provided by yourself. Audition repertoire is limited to either 1 musical theatre piece and 1 classical piece or two classical/art/contemporary art pieces.The limit for the TTBB Ensemble is 8 members but can be as low as 6 members meaning no one is automatically accepted. In the application above a letter of recommendation is asked for and doesn't need to address the ensemble directly, but meant to show the applicant's character and dedication to a community or ensemble.</p>
+
+      <h4>Expectations if Accepted</h4>
+      <p>Membership in the Wesleyan Vanguards carries a commitment to excellence, professionalism, and reliability. All accepted members are expected to attend the two weekly rehearsals and communicate any unavoidable conflicts well in advance. Rehearsal times will be scheduled according to the collective availability of the ensemble.</p>
+
+      <p>Members are expected to maintain a high level of dedication throughout the season and make every effort to be present for all performances, events, and competitions. At the conclusion of each musical cycle, the ensemble will meet for formal, high‑quality video recording sessions. Members are required to arrive on time, dressed in appropriate formal attire, and prepared to perform at a professional standard.</p>
+
+      <p>All members must download and use the BAND app, which will serve as the primary platform for communication, scheduling, and ensemble updates</p>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; <span id="year"></span> The Vanguards — All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Dropdown functionality with arrow rotation
+    const headers = document.querySelectorAll('.dropdown-header');
+    headers.forEach(header => {
+      header.addEventListener('click', () => {
+        const content = header.nextElementSibling;
+        const arrow = header.querySelector('.arrow-icon');
+
+        const isOpen = content.style.display === 'block';
+        content.style.display = isOpen ? 'none' : 'block';
+        arrow.classList.toggle('arrow-rotate', !isOpen);
+      });
+    });
+  </script>
+
+</body>
+</html>
